@@ -1,2 +1,3 @@
 # HandyDesign
-React-Compatible Functional Component swith beautiful animations and mobile first responsive design.
+React-Compatible Functional Components with beautiful animations and mobile first responsive design.
+Import this and customize all you want!
