@@ -38,3 +38,11 @@ For scss
 ```
 yarn add scss
 ```
+
+## How to use
+
+The way I recommend is take a look at the Components Folder and find your desired one. It is a little tedious comparing 
+with a package. But it would definitely give you the freedom to DWTFYW.
+
+## Components here (Counting)
+DrapAndDop: A simple drap and upload modal you can use to upload files and such.

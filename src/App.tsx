@@ -1,12 +1,14 @@
 import React from 'react';
 import './Style/App.css';
+import DragAndUploadWithModal from "./Components/DragAndUpload/DragAndUploadWithModal";
 
 function App() {
   return (
     <div className="App">
-      Canvas Here
+      <DragAndUploadWithModal />
     </div>
   );
 }
 
 export default App;
+
