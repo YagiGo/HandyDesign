@@ -1,0 +1,90 @@
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+$indigo: #6610F2FF;
+$light: #f8f9fa;
+@mixin collapse-style {
+  width: 60px;
+  span,
+  button {
+    display: none;
+  }
+}
+@mixin topbar-style {
+  flex-direction: row;
+  margin-bottom: 1.5rem;
+  span,
+  button {
+    display: none;
+  }
+}
+
+@mixin fix-width-style {
+  width: 300px;
+  flex-direction: column;
+}
+
+.base {
+  display: flex;
+  @media (min-width: $screen-lg) {
+    @include fix-width-style;
+  }
+  @media (min-width: $screen-md) and (max-width: $screen-lg) {
+    @include collapse-style;
+    a {
+      display: flex;
+      align-items: center;
+      padding: 0;
+    }
+  }
+  @media (max-width: $screen-md) {
+    @include topbar-style;
+  }
+  li {
+    height: 48px;
+    display: flex;
+    flex: 1 1 auto;
+  }
+  a {
+    width: 100%;
+    color: $indigo !important;
+  }
+  overflow: auto;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.expand {
+  a {
+    &:hover {
+      color: $indigo;
+    }
+
+    svg {
+      margin-left: 1rem;
+      margin-right: 0.5rem;
+    }
+  }
+}
+.collapse {
+  @include collapse-style;
+}
+
+.active {
+  background-color: $indigo;
+  a,
+  svg,
+  a:hover {
+    color: white !important;
+  }
+}
+
+.notSelected {
+  background-color: $light;
+  a,
+  svg,
+  a:hover {
+    color: $indigo;
+  }
+}
