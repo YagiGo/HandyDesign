@@ -45,4 +45,5 @@ The way I recommend is take a look at the Components Folder and find your desire
 with a package. But it would definitely give you the freedom to DWTFYW.
 
 ## Components here (Counting)
-DrapAndDop: A simple drap and upload modal you can use to upload files and such.
+[DrapAndDop](https://github.com/YagiGo/HandyDesign/tree/main/src/Components/DragAndUpload): A simple drap and upload modal you can use to upload files and such.
+[ResponsiveSideBar](https://github.com/YagiGo/HandyDesign/tree/main/src/Components/ResponsiveSideBar): A responsive sidebar that could hide text and change position based on the current screen width
