@@ -48,3 +48,6 @@ with a package. But it would definitely give you the freedom to DWTFYW.
 [DrapAndDop](https://github.com/YagiGo/HandyDesign/tree/main/src/Components/DragAndUpload): A simple drap and upload modal you can use to upload files and such.
 
 [ResponsiveSideBar](https://github.com/YagiGo/HandyDesign/tree/main/src/Components/ResponsiveSideBar): A responsive sidebar that could hide text and change position based on the current screen width
+
+[CircularNavigation](https://github.com/YagiGo/HandyDesign/tree/main/src/Components/CircularNavigation): A circular navigation menu with wrapping/expanding animation
+
