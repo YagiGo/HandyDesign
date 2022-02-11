@@ -51,3 +51,5 @@ with a package. But it would definitely give you the freedom to DWTFYW.
 
 [CircularNavigation](https://github.com/YagiGo/HandyDesign/tree/main/src/Components/CircularNavigation): A circular navigation menu with wrapping/expanding animation
 
+[GlassmorphismCard](https://github.com/YagiGo/HandyDesign/tree/main/src/Components/GlassmorphismCard): A glassmorphism card component with content fade-in effect
+
